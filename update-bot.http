@@ -1,0 +1,13 @@
+# @prompt botId
+# @prompt token
+
+POST https://dev.teams.microsoft.com/api/botframework/{{botId}}
+Authorization: Bearer {{token}}
+
+{
+    "name": "",
+    "description": "",
+    "iconUrl": "",
+    "messagingEndpoint": "",
+    "callingEndpoint": ""
+}

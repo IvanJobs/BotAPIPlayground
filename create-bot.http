@@ -1,0 +1,13 @@
+# @prompt token
+POST https://dev.teams.microsoft.com/api/botframework
+Authorization: Bearer {{token}}
+Content-type: application/json; charset=utf-8
+
+{
+  "botId": "0cd14903-d43a-47f5-b907-73c523aff072",
+  "name": "ruhe01290236-local-debug",
+  "description": "",
+  "iconUrl": "https://docs.botframework.com/static/devportal/client/images/bot-framework-default.png",
+  "messagingEndpoint": "https://8075-167-220-255-43.ngrok.io/api/messages",
+  "callingEndpoint": ""
+}

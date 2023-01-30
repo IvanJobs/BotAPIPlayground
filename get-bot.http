@@ -1,0 +1,5 @@
+# @prompt botId
+# @prompt token
+
+GET https://dev.teams.microsoft.com/api/botframework/{{botId}}
+Authorization: Bearer {{token}}
