@@ -1,0 +1,11 @@
+@token = ""
+@displayName = "ruhe01301050"
+
+POST https://graph.microsoft.com/v1.0/applications
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer {{token}}
+
+{
+    "displayName": "{{displayName}}",
+    "signInAudience": "AzureADMultipleOrgs"
+}
